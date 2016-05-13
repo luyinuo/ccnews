@@ -1,0 +1,9 @@
+# Uncomment this line to define a global platform for your project
+# platform :ios, '7.0'
+
+target 'cnnews' do
+pod 'TTLiveSDK', path: './libTTLiveSDK'
+pod 'AFNetworking', '~>3.1.0'
+pod 'SDWebImage', '~>3.7'
+end
+

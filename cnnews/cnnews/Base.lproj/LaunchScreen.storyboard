@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" initialViewController="01J-lp-oVM">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Llm-lL-Icb"/>
+                        <viewControllerLayoutGuide type="bottom" id="xb3-aO-Qok"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="登录背景.png" translatesAutoresizingMaskIntoConstraints="NO" id="wLQ-Qw-fEx">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Copyright © 2016 央视新闻 保留所有权利" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ibt-8G-e6s">
+                                <rect key="frame" x="186" y="562" width="228" height="15"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="小楼.png" translatesAutoresizingMaskIntoConstraints="NO" id="fxK-sn-7g2">
+                                <rect key="frame" x="197" y="213" width="207" height="174"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="fxK-sn-7g2" secondAttribute="height" multiplier="159:134" id="AHh-jd-J9S"/>
+                                    <constraint firstAttribute="width" constant="207" id="Pqp-Xk-6XT"/>
+                                    <constraint firstAttribute="height" constant="174" id="bP0-3F-mgs"/>
+                                </constraints>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="AHh-jd-J9S"/>
+                                    </mask>
+                                </variation>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="fxK-sn-7g2" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="5w6-4N-dam"/>
+                            <constraint firstItem="wLQ-Qw-fEx" firstAttribute="width" secondItem="Ze5-6b-2t3" secondAttribute="width" id="BEx-PI-GRJ"/>
+                            <constraint firstItem="wLQ-Qw-fEx" firstAttribute="height" secondItem="Ze5-6b-2t3" secondAttribute="height" id="LSa-8k-7Af"/>
+                            <constraint firstItem="wLQ-Qw-fEx" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="Y5O-Aq-JJv"/>
+                            <constraint firstItem="wLQ-Qw-fEx" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="bTG-Ca-7MY"/>
+                            <constraint firstItem="Ibt-8G-e6s" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="nJl-RS-tYr"/>
+                            <constraint firstItem="Ibt-8G-e6s" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" multiplier="1.9" id="vQa-Od-ons"/>
+                            <constraint firstItem="fxK-sn-7g2" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="yRd-oC-Qkn"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="53" y="375"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="小楼.png" width="159" height="134"/>
+        <image name="登录背景.png" width="750" height="1334"/>
+    </resources>
+</document>
